@@ -1,0 +1,20 @@
+<%- include('./partials/header'); %>
+
+    <body class="h-screen w-screen flex items-center justify-center bg-gray-100">
+
+        <div class="relative h-full w-full">
+            <!-- Full-screen Image -->
+            <img src="https://imgs.search.brave.com/Y64ELHZ0sZ7zqw6Uz2s2PmzLVK_A404PPYDCXOVin0M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8y/LzJhL0JsaW5raXQt/eWVsbG93LXJvdW5k/ZWQuc3Zn" alt="Background Image" class="object-cover w-full h-full">
+
+            <!-- Button at the Bottom -->
+            <div class="absolute bottom-0 w-full flex justify-center mb-8">
+                <a href="/auth/google"
+                    class="bg-black text-white font-semibold py-3 px-6 rounded-lg hover:bg-black transition duration-300">
+                   Sign Up with Google
+                </a>
+            </div>
+        </div>
+
+    </body>
+
+    <%- include('./partials/footer'); %>
